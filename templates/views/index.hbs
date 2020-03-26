@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <title>My Weather App</title>
+    <link rel="icon" href="/img/rs.png">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="main-content">
+        {{>header}}
+        <h3>Enter name of place to check weather</h3>
+
+        <form>
+            <input type="text" placeholder="location">
+            <button>Search</button>
+        </form>
+
+        <p class="m1"></p>
+        <p class="m2"></p>
+    </div>
+    {{>footer}}
+    <script src="/js/file.js"></script>
+</body>
+
+</html>
