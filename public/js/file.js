@@ -35,6 +35,6 @@ weatherForm.addEventListener('submit', (e) => {
         })
     }
     else {
-        msg1.appendChild(document.createTextNode("Please enter address"))
+        msg1.textContent = "Please enter address"
     }
 })
